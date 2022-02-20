@@ -1,0 +1,5 @@
+div{
+    border-bottom: 2px;
+    transition: 3s all;
+    color: rgba(0, 0, 0, 0.1)
+}

@@ -10,130 +10,118 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,400;1,700;1,800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap-reboot.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <main>
-        <section class="section-main">
+    <section class="section-promo">
+        <div class="container">
             <header class="header">
                 <nav class="header__menu">
-                    <a class="menu__link active" href="#">home</a>
+                    <a class="menu__link" href="#">home</a>
                     <a class="menu__link" href="#">portfolio</a>
                     <a class="menu__link" href="#">about us</a>
                     <a class="menu__link" href="#">contact</a>
                 </nav>
             </header>
-            <div class="section-main__content">
+
+            <div class="section-promo__content">
                 <div>
-                    <h1 class="section-main__content-title">
+                    <h1 class="section-promo__title">
                         our strong <span>organaisation</span>
                     </h1>
-                    <p class="section-main__content-text">
+                    <div class="descr">
                         Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do
                         eius-mod tempor incididunt ut labore et. ectetur adig ipis cing
                         elit, sed do eiusmod tempor incididunt.
-                    </p>
-                    <button class="button">Contact Us</button>
+                    </div>
+                    <button class="btn">Contact Us</button>
                 </div>
                 <div class="wrapper-video">
                     <img class="icon-video" src="icons/Vedio_Icon.png" alt="video-player">
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="section-2">
+    <div class="container">
+        <section class="section-services">
             <div>
-                <h2 class="section-2__title">
-                    do you know we can provide for you ?
-                </h2>
-                <p class="section-2__text">
+                <h2 class="title">do you know we can provide for you ?</h2>
+                <div class="descr">
                     Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eius mod tempor incididunt ut
-                    labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor
-                    incididunt ut labore et.
-                </p>
-                <button class="section-2_button">Learn More</button>
+                    labore
+                    et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut
+                    labore et.
+                </div>
+                <button class="btn">Learn More</button>
             </div>
-
             <div class="services">
                 <div class="service">
-                    <div class="service__icon">
-                        <img src="icons/Settings.png" alt="icons settings">
+                    <img class="service__img" src="icons/Settings.png" alt="icon-settings">
+                    <div class="service__title">Management</div>
+                    <div class="descr">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod
+                        btdempor in didunt utlae ore etioe.Lorem ipsum new idolor
                     </div>
-                    <h3 class="service__title">Management</h3>
-                    <p class="service__text">
-                        Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in didunt
-                        utlae ore etioe.Lorem ipsum new idolor
-                    </p>
                 </div>
                 <div class="service">
-                    <div class="service__icon">
-                        <img src="icons/Pencil.png" alt="icons pencil">
-                    </div>
-                    <h3 class="service__title">UI /UX Design</h3>
-                    <p class="service__text">
-                        Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in didunt
-                        utlae ore etioe.Lorem ipsum new idolor sit amet,
-                    </p>
+                    <img class="service__img" src="icons/Pencil.png" alt="icon-pencil">
+                    <div class="service__title">UI /UX Design</div>
+                    <div class="descr">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod
+                        btdempor in didunt utlae ore etioe.Lorem ipsum new idolor sit amet,</div>
                 </div>
                 <div class="service">
-                    <div class="service__icon">
-                        <img class="service__icon" src="icons/Diamond.png" alt="icons diamond">
-                    </div>
-                    <h3 class="service__title">Logo / Branding</h3>
-                    <p class="service__text">
-                        Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in didunt
-                        utlae ore etioeew idolor sit amet,
-                    </p>
+                    <img class="service__img" src="icons/Diamond.png" alt="icon-diamond">
+                    <div class="service__title">Logo / Branding</div>
+                    <div class="descr">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod
+                        btdempor in didunt utlae ore etioeew idolor sit amet,</div>
                 </div>
                 <div class="service">
-                    <img class="service__icon" src="icons/Truck_2.png" alt="icons truck">
-                    <h3 class="service__title">Animation</h3>
-                    <p class="service__text">
-                        Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod btdempor in didunt
-                        utlae ore etioe.Lorem ipsum new idolor sit amet, consect netur.
-                    </p>
+                    <img class="service__img" src="icons/Truck.png" alt="icon-truck">
+                    <div class="service__title">Animation</div>
+                    <div class="descr">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod
+                        btdempor in didunt utlae ore etioe.Lorem ipsum new idolor sit amet, consect netur.</div>
                 </div>
             </div>
         </section>
-        <div class="rectangle"></div>
-        <section class="section-3">
-            <h2 class="section-3__title">feature products</h2>
-            <p class="section-3__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor
-                incididunt ut labore et.</p>
-            <div class="section-3__rectangle"></div>
-            <nav class="filter-panel">
-                <div class="filter-panel__item active">all</div>
-                <div class="filter-panel__item">print template</div>
-                <div class="filter-panel__item">web template</div>
-                <div class="filter-panel__item">user interface</div>
-                <div class="filter-panel__item">mock-up</div>
+
+        <section class="section-products">
+            <h2 class="title">feature products</h2>
+            <div class="descr">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt
+                ut labore et.</div>
+            <div class="rectangle"></div>
+            <nav class="menu-filters">
+                <div class="menu-filters__item active">all</div>
+                <div class="menu-filters__item">print template</div>
+                <div class="menu-filters__item">web template</div>
+                <div class="menu-filters__item">user interface</div>
+                <div class="menu-filters__item">mock-up</div>
             </nav>
-            <div class="filter-products">
-                <div class="product"></div>
-                <div class="product"></div>
-                <div class="product"></div>
-                <div class="product"></div>
-                <div class="product"></div>
-                <div class="product"></div>
-                <div class="product"></div>
-                <div class="product"></div>
+            <div class="products-list">
+                <div class="products-list__item"></div>
+                <div class="products-list__item"></div>
+                <div class="products-list__item"></div>
+                <div class="products-list__item"></div>
+                <div class="products-list__item"></div>
+                <div class="products-list__item"></div>
+                <div class="products-list__item"></div>
+                <div class="products-list__item"></div>
             </div>
         </section>
 
         <section class="section-team">
-            <h2 class="section-team__title">Meet our team</h2>
-            <p class="section-team__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod
-                tempor incididut labore Ui / Ux , print template.</p>
-            <div class="section-team__rectangle"></div>
-            <div class="team">
-                <div class="big-foto">
-
-                </div>
-                <div>
-                    <div class="crewman-name">mark waugh</div>
-                    <p class="crewman-info">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod
-                        tempor incididut labore Ui / Ux , print template.</p>
+            <h2 class="title">Meet our team</h2>
+            <div class="descr">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor
+                incididut labore Ui / Ux , print template.</div>
+            <div class="rectangle"></div>
+            <div class="team-group">
+                <div class="big-foto"></div>
+                <div class="team">
+                    <h3 class="crewman">mark waugh</h3>
+                    <div class="descr">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod
+                        tempor incididut labore Ui / Ux , print template.</div>
                     <div class="social-group">
                         <div class="social-group__item">Facebook</div>
                         <div class="social-group__item">Dribble</div>
@@ -153,61 +141,54 @@
                         <div class="foto-group__item">
                             <div class="foto-group__item-name">sokina jue</div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
-
-        <section class="section-5">
-            <h2 class="section-5__title">Design tips, tricks, and freebies. Delivered weekly.</h2>
-            <p class="section-5__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
-            <form class="section-5__form">
-                <input class="section-5__input" type="email" placeholder="Email Address..." name="">
-                <button class="section-5__button">subscribe</button>
-            </form>
-        </section>
-
+    </div>
+    <section class="section-subscribe">
+        <div class="title">Design tips, tricks, and freebies. Delivered weekly.</div>
+        <div class="descr">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</div>
+        <form>
+            <input type="email" placeholder="Email Address..." name="email">
+            <button class="btn">subscribe</button>
+        </form>
+    </section>
+    <div class="container">
         <section class="section-connect">
-            <div class="connect">
-                <h2 class="connect__title">get in touch</h2>
-                <p class="connect__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do
-                    eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut
-                    labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                <div class="connect__rectangle"></div>
-                <form class="connect__form">
-                    <div class="input-group">
-                        <input name="" type="text" placeholder="Name">
-                        <input name="" type="email" placeholder="Your Mail">
-                    </div>
-                    <textarea name="" placeholder="Type your message"></textarea>
-                    <button>Send message</button>
-                    <div class="contact-info">
-                        <div class="contact-info__title">contact info</div>
-                        <address>Jalalabad 24 / A, Ambaarkhana, Sylhet,Bangladesh</address>
-                        <a class=contact-info__email href="mailto:example@gmail.com">redwan@deviserweb.com</a>
-                        <div class=contact-info__phone><a href="tel:+8801761746373">(+88) 017 617 46373</a></div>
-                    </div>
-                </form>
+            <h2 class="title">get in touch</h2>
+            <div class="descr">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor
+                incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis
+                cing elit, sed do eiusmod tempor incididunt ut labore et.</div>
+            <div class="rectangle"></div>
+            <form>
+                <div class="input-group">
+                    <input name="text" type="text" placeholder="Name">
+                    <input name="email" type="email" placeholder="Your Mail">
+                </div>
+                <textarea name="message" placeholder="Type your message"></textarea>
+                <button class="btn">Send message</button>
+            </form>
+            <div class="contact-info">
+                <div class="contact-info__title">contact info</div>
+                <address>Jalalabad 24 / A, Ambaarkhana, Sylhet,Bangladesh</address>
+                <a class=contact-info__email href="mailto:example@gmail.com">redwan@deviserweb.com</a>
+                <a class=contact-info__phone href="tel:+8801761746373">(+88) 017 617 46373</a>
             </div>
         </section>
+    </div>
 
-        <footer>
-            <div class="container footer-block">
-                <div class="text">© Copyright @Junaed 2016, All rights reserved.</div>
-                <nav class="messenger-block">
-                    <a href=""><img src="icons/1468368398_Twitter_Rounded_Solid.png" alt="icon twitter"></a>
-                    <a href=""><img src="icons/1468368407_LinkedIn_Rounded_Solid.png" alt="icon linkedin"></a>
-                    <a href=""><img src="icons/1468368412_Google_Rounded_Solid.png" alt="icon google"></a>
-                    <a href=""><img src="icons/1468368389_Facebook_Rounded_Solid.png" alt="icon facebook"></a>
-                </nav>
-            </div>
-        </footer>
-            <div class="box1">
-                <div class="box2"></div>
-            </div>
-        
-    </main>
+    <footer>
+        <div class="container">
+            <div class="copyright-container">© Copyright @Junaed 2016, All rights reserved.</div>
+            <nav class="messenger-block">
+                <a href=""><img src="icons/1468368398_Twitter_Rounded_Solid.png" alt="icon twitter"></a>
+                <a href=""><img src="icons/1468368407_LinkedIn_Rounded_Solid.png" alt="icon linkedin"></a>
+                <a href=""><img src="icons/1468368412_Google_Rounded_Solid.png" alt="icon google"></a>
+                <a href=""><img src="icons/1468368389_Facebook_Rounded_Solid.png" alt="icon facebook"></a>
+            </nav>
+        </div>
+    </footer>
 </body>
 
 
